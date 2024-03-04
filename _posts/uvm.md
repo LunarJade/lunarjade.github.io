@@ -1,3 +1,7 @@
+---
+layout: post
+title: UVM Questions
+---
 ## 仿真在UVM_ERROR达到一定数量后结束
 - 添加run option：`+UVM_MAX_QUIT_COUNT=6,NO`
 - 其中第一个参数表示退出阈值，第二个参数NO表示不可愚蠢被后面的语句重载，还可以是YES
